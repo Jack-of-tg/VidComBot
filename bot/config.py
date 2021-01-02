@@ -21,6 +21,7 @@ class Config(object):
     MAX_FILE_SIZE = 1572864000
     TG_MAX_FILE_SIZE = 1572864000
     FREE_USER_MAX_FILE_SIZE = 1572864000
+    BANNED_USERS = []
     # default thumbnail to be used in the videos
     DEF_THUMB_NAIL_VID_S = get_config("DEF_THUMB_NAIL_VID_S", "https://placehold.it/90x90")
     # proxy for accessing youtube-dl in GeoRestricted Areas
