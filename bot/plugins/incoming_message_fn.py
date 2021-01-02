@@ -28,7 +28,7 @@ from bot.helper_funcs.display_progress import (
   humanbytes
 )
 
-from pyrogram import (
+from pyrogram.types import (
   InlineKeyboardButton,
   InlineKeyboardMarkup
 )
