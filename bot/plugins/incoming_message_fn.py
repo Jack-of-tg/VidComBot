@@ -52,7 +52,7 @@ async def incoming_start_message_f(bot, update):
 async def incoming_compress_message_f(bot, update):
   """/compress command"""
     
-  if update.from_user.id not in AUTH_USERS:
+  if update.from_user.id  in BANNED_USERS:
     try:
       await update.message.delete()
     except:
