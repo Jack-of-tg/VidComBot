@@ -23,7 +23,7 @@ from pyrogram import (
 )
 
 from pyrogram.types import(
-  MessageHandler,
+  Message,
   CallbackQueryHandler
 )
 
